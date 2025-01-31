@@ -5,10 +5,16 @@
 <h2>Características</h2>
 
 <ul>
-<il>Permite agregar nombres a una lista.</il>
-<il>Evita nombres duplicados.</il>
-<il>Realiza un sorteo aleatorio entre los nombres agregados.</il>
-<il>Muestra el nombre seleccionado como resultado del sorteo.</il>
+<li>Permite agregar nombres a una lista.</li>
+<li>Evita nombres duplicados.</li>
+<li>Realiza un sorteo aleatorio entre los nombres agregados.</li>
+<li>Muestra el nombre seleccionado como resultado del sorteo.</li>
 </ul>
 
-<h2>Características</h2>
+<h2>Requisitos</h2>
+
+<p> Este proyecto solo necesita un navegador web moderno para ejecutarse.</p>
+
+<h2>Autor</h2>
+
+<p>Desarrollado por Emanuel Ledesma Camacho.</p>
