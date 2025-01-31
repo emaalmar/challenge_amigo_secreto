@@ -1,11 +1,11 @@
 let friends =[];
 
 function addFriend(){
-    let nameInput = document.getElementById("amigo");
+    let name = document.getElementById("amigo").value;
 
-    if (name === ""){
-        alert ("Por favor, ingresa un nombre valido.");
-        return
+    if (name === "" || !/^[a-zA-ZÀ-ÿ\u00f1\u00d1\u00dc\u00cb\s]+$/.test(name)){
+        alert("Por favor, ingresa un nombre válido (solo letras y espacios).");
+        return;
     }
 
     if (friends.includes(name)) {
@@ -13,7 +13,7 @@ function addFriend(){
         return;
     }
     friends.push(name);
-    update_list();
+    updateList();
     nameInput.value="";
 }
 
@@ -35,11 +35,11 @@ function selectFriend(){
         return;
     }
 
-    let randomIndex = Math.floor(Math.random()*friends.length);
+    let randomIndex = Math.floor(Math.random() * friends.length);
     let friendSelect = friends[randomIndex];
 
     let result = document.getElementById("resultado");
-    resultado.innerHTML = `<li>${amigoSorteado}</li>`;
+    result.innerHTML = `<li>${friendSelect}</li>`;
 }
 
 
