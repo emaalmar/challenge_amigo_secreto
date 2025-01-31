@@ -1,4 +1,4 @@
-<h1>Amigo Secreto<h1>
+<h1>Amigo Secreto</h1>h1>
 
 <p> Este es un pequeño proyecto en JavaScript, HTML y CSS que permite a los usuarios agregar nombres de amigos y realizar un sorteo aleatorio para el juego de "Amigo Secreto"</p>
 
