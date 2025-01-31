@@ -14,7 +14,7 @@ function addFriend(){
     }
     friends.push(name);
     updateList();
-    nameInput.value="";
+    nameInput.value=" ";
 }
 
 function updateList() {
